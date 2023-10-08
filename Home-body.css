@@ -40,6 +40,7 @@
     font-style: italic;
 }
 .grid-services{
+    margin-top: -10px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     line-height: 30px;
@@ -82,6 +83,6 @@
         font-size: 30px;
     }
     .index-body{
-        height: 600px;
+        height: 650px;
     }
 }
