@@ -1,0 +1,112 @@
+
+.riceMeal-body{
+    height: 59rem;
+    background-color: maroon;
+    margin: 0px 0px 0px 0px;
+    font-family: Montserrat, Arial;
+    color: white;
+    position: relative;
+}
+.menu-active{
+    color: rgb(255, 255, 255);
+    background-color: rgb(52, 8, 8);
+    text-decoration: underline;
+} /*A active click on menu*/
+.main-body{
+    margin-top: 5rem;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+.main-body h1{
+    margin-bottom: -5px;
+    align-self: center;
+    color: rgb(255, 227, 227);
+    text-decoration: underline;
+}
+.rice-first-row,.rice-second-row{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.first-in-row, .second-in-row,.third-in-row{
+    margin-top: 40px;
+    position: relative;
+    padding: 3px 3px 3px 3px;
+    text-align: center;
+    width: 250px;
+    height: 350px;
+    background-color: #9A3B3B;
+    border-radius: 20px;
+    box-shadow: 0px 10px 30px black;
+    justify-self: center;
+}
+.first-in-row img, .second-in-row img,.third-in-row img{
+    box-shadow: 0px 0px 30px black;
+    height: 250px;
+    border-radius: 20px;
+    width: 250px;
+    object-fit: cover;
+}
+.first-in-row h3, .second-in-row h3,.third-in-row h3{
+    text-shadow: 0px 0px 10px black;
+}
+.best-selling{
+    position: absolute;
+    right: 0;
+}
+.best-selling img{
+    box-shadow: 0px 0px 2px yellow;
+    width: 60px;
+    border-radius: 200px;
+    height: 60px;
+    object-fit: contain;
+}
+.foot{
+    position: absolute;
+    bottom: 0px;
+    right:0px;
+    left: 0px;
+    height: 4rem;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.foot p{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.foot div{
+    margin-top: 3px;
+}
+.foot a{
+    color: white;
+    text-decoration: underline;
+    transition: color 0.15s;
+}
+.foot a:hover{
+    color: blue;
+}
+@media only screen and (max-width: 960px){
+    .main-body h1{
+        font-size: 20px;
+    }
+    .rice-first-row,.rice-second-row{
+        align-items: center;
+        grid-template-columns: 1fr 1fr;
+        gap: 0px;
+    }
+    .first-in-row, .second-in-row,.third-in-row{
+        justify-self: center;
+        margin-top: 20px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .riceMeal-body{
+        height: 1250px;
+    }
+}
+@media only screen and (max-width:680px){
+    
+}
