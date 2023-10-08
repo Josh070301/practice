@@ -26,6 +26,7 @@
     border-radius: 200px;
 }
 .list-div{
+    margin-left: -9%;
     flex: 4;
     height: 100%;
 }
@@ -59,10 +60,10 @@
     background-color: rgb(77, 0, 0);
     text-decoration: underline;
 }
-@media only screen and (max-width:680px) {
+@media only screen and (max-width:960px) {
     .ul-class span{
         font-size: 14px;
-        
+        text-align: center;
     }
     .list-div{
         flex: 4;
