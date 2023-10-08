@@ -98,8 +98,11 @@
         gap: 0px;
     }
     .first-in-row, .second-in-row,.third-in-row{
-        width: 200px;
-        height: 280px;
+        width: 100px;
+        height: 180px;
+    }
+    .first-in-row h3, .second-in-row h3,.third-in-row h3{
+        font-size: 11px;
     }
     .first-in-row img, .second-in-row img,.third-in-row img{
         width: 100%;
@@ -113,7 +116,7 @@
         object-fit: contain;
     }
     .riceMeal-body{
-        height: 1250px;
+        height: 900px;
     }
     
 }
