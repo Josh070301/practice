@@ -39,13 +39,14 @@
     display: flex;
 }
 .ul-class span{
+    white-space: normal;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100%;
     flex: 1;
     list-style: none;
-    font-size: 20px;
+    font-size: 17px;
     cursor: pointer;
     transition: background-color 0.15s, color 0.15s, text-decoration 0.15s;
 }
@@ -60,7 +61,7 @@
 }
 @media only screen and (max-width:680px) {
     .ul-class span{
-        font-size: 17px;
+        font-size: 14px;
         
     }
     .list-div{
@@ -70,5 +71,8 @@
         cursor: pointer;
         width: 45px;
         border-radius: 200px;
+    }
+    .ul-class span{
+        margin-right: 15px;
     }
 }
