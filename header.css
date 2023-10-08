@@ -15,6 +15,7 @@
     justify-content: center;
     align-items: center;
     transition: opacity 0.15s;
+    
 }
 .img-div img:hover{
     opacity: 90%;
@@ -43,7 +44,6 @@
     align-items: center;
     height: 100%;
     flex: 1;
-    white-space: nowrap;
     list-style: none;
     font-size: 20px;
     cursor: pointer;
@@ -61,11 +61,14 @@
 @media only screen and (max-width:680px) {
     .ul-class span{
         font-size: 17px;
+        
     }
     .list-div{
         flex: 4;
     }
-    .header-div{
-        height: 4rem;
+    .img-div img{
+        cursor: pointer;
+        width: 45px;
+        border-radius: 200px;
     }
 }
